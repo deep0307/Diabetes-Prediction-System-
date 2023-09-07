@@ -6,9 +6,12 @@ passes in the required data.
 
 Technology Stack
 
-Diabetes Prediction:- Python, sci-kit learn, Tensorflow 
+Diabetes Prediction:- Python, sci-kit learn, Tensorflow
+
 Insulin Calculator:-Javascript
+
 Front End:-HTML , CSS , Bootstrap.
+
 Back End:- Python3 Flask Framework
 
 UI For the Diabetes Prediction:
