@@ -1,0 +1,9 @@
+total 44
+drwxrwxr-x 2 abhisheks abhisheks 4096 Apr  6 22:45 .
+drwxrwxr-x 5 abhisheks abhisheks 4096 Apr  8 09:08 ..
+-rw-rw-r-- 1 abhisheks abhisheks 4318 Apr  6 22:43 index.html
+-rw-rw-r-- 1 abhisheks abhisheks 3429 Mar 18 01:08 insulin2.html
+-rw-rw-r-- 1 abhisheks abhisheks 4101 Apr  6 22:45 insulin.html
+-rw-rw-r-- 1 abhisheks abhisheks 5039 Nov  8 21:25 more.html
+-rw-r--r-- 1 abhisheks abhisheks    0 Apr  9 16:26 permdump.txt
+-rw-rw-r-- 1 abhisheks abhisheks 4449 Mar 17 22:53 prediction.html

@@ -1,0 +1,118 @@
+<title>Diabetes Predictor</title>
+<!--Set anything which will require the Python rendering engine to kick in.-->
+<script type='text/javascript'>
+	//Global variable defining the root of the document.
+	const $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+</script>
+
+<!--Import jQuery.-->
+<script type='text/javascript' src="{{ url_for('static',filename='jQuery.js') }}"></script>
+<!--Import the script file.-->
+<!--All our functions are defined here.-->
+<script type='text/javascript' src="{{ url_for('static',filename='insulin.js') }}"></script>
+
+<!--Importing all CSS files.-->
+<link rel="stylesheet" href="{{ url_for('static',filename='css/bootstrap.css') }}">
+<link rel="stylesheet" href="{{ url_for('static',filename='css/css1.css') }}">
+<link rel="stylesheet" href="{{ url_for('static',filename='css/font-awesome.min.css') }}">
+<link rel="stylesheet" href="{{ url_for('static',filename='css/linearicons.css') }}">
+<link rel="stylesheet" href="{{ url_for('static',filename='css/main.css') }}">
+
+<header id="header" id="home">
+	<div class="container">
+		<div class="row align-items-center justify-content-between d-flex">
+			<div id="logo"><a href="index.html"></a></div>
+		<nav id="nav-menu-container">
+			<ul class="nav-menu">
+				<li class="menu-active"><a href="{{ url_for('index') }}">Home</a></li>
+				<li><a href="#feature">Analysis</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav> 
+	</div>
+</header>
+
+<section class="banner-area relative" id="home">
+	<div class="container">
+		<div class="row fullscreen d-flex align-items-center justify-content-end">
+			<div class="banner-content col-md-12">
+				<h4 class="text-uppercase"></h4>
+				<h1>
+				<font color="blue">Insulin Dosage Calculator</font> 
+				</h1>
+				<p><font color="black">lets check it..!</font></p>
+				<a href="#feature" class="primary-btn header-btn text-uppercase">Discover now</a>
+				<h5>
+					Copyright &copy; 2021 All rights reserved |
+					This project is developed by Abhishek Swaminathan,
+					Shagun Choudhari and Deep Dodhiwala
+				</h5>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="feature-area section-gap" id="feature">
+<div class="container">
+<center>
+<p id="formtext"><font size="7">Let's Calculate</font></p>
+
+<p>
+<label for="n1">Current Bloodsugar</label>
+<input type="text" min="70" max="500" step="1" id = "number1" placeholder="Enter bloodsugar in mg/dl" pattern="\d+" >
+</p>
+
+<p>
+<label for="n2"> Meal Carbohydrate content</label>
+<input type="text" min="1" max="300" step="1" id="number2" placeholder="Enter the content in grams">
+</p>
+
+<p>
+<label for="n3"> Insulin to Carb Ratio(grams of CHO disposed by 1 unit of insulin)</label>
+<input type="text" min="1" max="100" step="1" id="number3" placeholder="1:X where x is in grams">
+</p>
+
+<p>
+<label for="n4"> Insulin sensitivity (correction) factor</label>
+<input type="text" min="1" max="150" step="1" id="number4" placeholder="correction factor">
+</p>
+
+<p>
+<label for="n5">tbg Blood Sugar</label>
+<input type="text" min="70" max="500" step="1" id="number5" placeholder="Enter the bloodsugar in mg/dl">
+</p>
+<button onclick="insulin()">Calculate</button>
+<div id="error"></div>
+<div id="calculatedDoseBox2">
+<div id="calculatedDoseBox3"><h1></h1></div>
+<div id="calculatedDoseBox1"></div>
+<div id="calculatedDoseBox"></div>
+</div>
+
+
+<footer class="footer-area section-gap" id="contact">
+<div class="container" align="center">
+
+
+
+<div class="single-footer-widget" align="center">
+<h4 class="text-black" align="center">Contact Us</h4>
+<p>
+For any Further queries please do contact us 
+<ul><li>Shagun Choudhari <p class="number">+91-7045982110 <br>
+</p></li>
+<li>Deep Dodhiwala</li><p class="number">+91-9687123645
+</p>
+</ul>
+</p>
+
+</div>
+
+</div>
+
+</footer> 
+
+
+</center>
+</div>
+</section>
