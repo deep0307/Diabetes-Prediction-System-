@@ -1,0 +1,8 @@
+total 80
+drwx------ 2 abhisheks abhisheks  4096 Oct 30 17:07 .
+drwxrwxr-x 4 abhisheks abhisheks  4096 Apr  6 22:51 ..
+-rw-rw-r-- 1 abhisheks abhisheks  5618 Oct 26 19:32 images.png
+-rw-rw-r-- 1 abhisheks abhisheks 27353 Oct 26 19:32 info.jpg
+-rw-rw-r-- 1 abhisheks abhisheks  2703 Oct 26 19:32 logo.png
+-rw-r--r-- 1 abhisheks abhisheks     0 Apr  9 16:26 permdump.txt
+-rw-rw-r-- 1 abhisheks abhisheks 29666 Oct 26 19:32 srinivas.jpg
