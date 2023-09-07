@@ -1,0 +1,1 @@
+sed  's/function/\nfunction/g' jQuery.js|grep -F 'function $'

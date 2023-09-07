@@ -1,0 +1,11 @@
+total 124
+drwxrwxr-x 4 abhisheks abhisheks  4096 Apr  6 22:51 .
+drwxrwxr-x 5 abhisheks abhisheks  4096 Apr  8 09:08 ..
+-rw-rw-r-- 1 abhisheks abhisheks    62 Dec  9 15:06 as
+drwx------ 4 abhisheks abhisheks  4096 Oct 30 17:07 css
+drwx------ 2 abhisheks abhisheks  4096 Oct 30 17:07 img
+-rw-rw-r-- 1 abhisheks abhisheks   587 Mar 18 01:08 insulin2.js
+-rw-rw-r-- 1 abhisheks abhisheks  2375 Apr  6 22:51 insulin.js
+-rw-rw-r-- 1 abhisheks abhisheks 92011 Aug 25  2020 jQuery.js
+-rw-r--r-- 1 abhisheks abhisheks     0 Apr  9 16:26 permdump.txt
+-rw-rw-r-- 1 abhisheks abhisheks  2095 Nov  9 00:31 script.js
